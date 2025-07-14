@@ -106,6 +106,22 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
+                <div className="conteiner-fluid bg-dark">
+
+                    <div className="container d-flex justify-content-between align-items-center p-3">
+                        <div>
+                            <button class="btn btn-outline-primary">sing up now!</button>
+                        </div>
+                        <div id="footer" className="d-flex justify-content-between align-items-center gap-3">
+                            <p>follow us</p>
+                            <img src="./public/img/footer-facebook" alt=""/>
+                            <img src="./public/img/footer-twitter.png" alt="" />
+                            <img src="./public/img/footer-youtube.png" alt="" />
+                            <img src="./public/img/footer-pinterest.png" alt="" />
+                            <img src="./public/img/footer-periscope.png" alt="" />
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </footer>

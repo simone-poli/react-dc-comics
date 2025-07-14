@@ -54,7 +54,6 @@ main {
 
 footer {
   .footer-container {
-    max-height: 380px;
     background-image: url(../public/img/footer-bg.jpg);
     background-size: cover;
 
@@ -86,6 +85,25 @@ footer {
 
   img{
     height: 300px;
+  }
+
+  .btn{
+    color:white;
+    text-transform: uppercase;
+    border-radius: 0;
+    border: 2px solid rgb(0, 166, 188);
+  }
+
+  p{
+    text-transform: uppercase;
+    color: #12528e;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  #footer img{
+    height: 20px;
   }
 }
 

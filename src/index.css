@@ -46,8 +46,46 @@ main {
   }
 
   p{
-    padding: 1rem;
+    padding: 1rem 1rem 0;
     font-size:12px
+  }
+}
+
+
+footer {
+  .footer-container {
+    max-height: 380px;
+    background-image: url(../public/img/footer-bg.jpg);
+    background-size: cover;
+
+  }
+
+  h5{
+    color:white;
+    text-transform: uppercase ;
+    padding-top: 2rem;
+  }
+
+  ul{
+    list-style: none;
+    padding: 0;
+    font-size: 12px;
+  }
+
+  a{
+    text-decoration: none;
+    color: #737a7c;
+  }
+  
+  .wrapper {
+     position: relative;
+     overflow: hidden ;
+     height: 50%;
+  }
+
+
+  img{
+    height: 300px;
   }
 }
 

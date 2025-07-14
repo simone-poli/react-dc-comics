@@ -17,7 +17,6 @@ header {
     a{
       text-decoration: none;
       color: #585a61;
-      padding: 1 rem;
       text-transform: uppercase;
 
       &.active {
@@ -25,6 +24,31 @@ header {
         border-bottom: 3px solid #0282f9;;
       }
     }
+}
+
+main {
+  .container-fluid {
+    height: 135px;
+  }
+
+  .main-container{
+    background-image: url();
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;;
+  }
+
+  img{
+    height: 40px;
+  }
+
+  p{
+    padding: 1rem;
+    font-size:12px
+  }
 }
 
 

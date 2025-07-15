@@ -1,15 +1,40 @@
+import comics from "../../../data/comics"
+import list from "../../../data/list"
 export default function Main() {
+
+
+
+
+
+
+
+
+
     return (
         <main>
-            <div className="container-fluid bg-black">
+            <div class="container-jumbotron" id="jumbotron">
+                <img src="../public/img/jumbotron." alt="" />
+            </div>
+
+
+            <div className=" bg-black">
                 <div className="container">
-                    <h1 className="text-white"> Content goes here</h1>
+                    <div className="row pt-4">
+                        {comics.map(({ series, thumb }, index) => (
+                            <div key={index} className="col-2 d-flex flex-column align-items-center text-white">
+                               
+                                    <a><img src={thumb} alt=""/></a>
+                                    <a><p className="mb-0">{series}</p></a>
+                              
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
 
             <div className="container-fluid bg-primary">
                 <div className="container d-flex justify-content-between p-5">
-                    <a href="">
+                    {/* <a href="">
                         <div className="d-flex align-items-center ">
                         <img src="../public/img/buy-comics-digital-comics.png" alt="" />
                         <p>Digital Comics</p>
@@ -38,7 +63,20 @@ export default function Main() {
                         <img src="../public/img/buy-dc-power-visa.svg" alt="" />
                         <p>DC Power Visa</p>
                     </div>
-                    </a>
+                    </a> */}
+                    {list.map(({ href, img, text }) => {
+                        return (
+                            <a href={href}>
+                                <div className="d-flex align-items-center">
+                                    <img src={img} alt="" />
+                                    <p>{text}</p>
+                                </div>
+                            </a>
+                        )
+                    }
+                    )}
+
+
                 </div>
             </div>
         </main>

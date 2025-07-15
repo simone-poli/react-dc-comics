@@ -25,10 +25,10 @@ export default function Header() {
                 <a href="">fans</a>
                 <a href="">news</a>
                 <a href="">shop</a> */}
-                {nav.map((nav, index) => {
+                {nav.map((item, index) => {
                     return (
-                        <a href="" key={index} className={nav.active ? "active" : ""}>
-                            {nav}
+                        <a key={index} className={item.active ? 'active' : ''} href={item.href}>
+                            {item.text}
                         </a>
                     );
                 })}

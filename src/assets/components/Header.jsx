@@ -1,4 +1,13 @@
+import nav from "../../../data/navbar"
+
 export default function Header() {
+
+    
+    
+
+
+
+
     return (
         <header>
         <div className="container d-flex justify-content-between align-items-center p-3">
@@ -6,7 +15,7 @@ export default function Header() {
                 <img src="../public/img/dc-logo.png" alt="Logo DC" />
             </div>
             <div className="d-flex gap-3">
-                <a href="">characters</a>
+               {/* <a href="">characters</a>
                 <a href="" className="active">comics</a>
                 <a href="">movies</a>
                 <a href="">tv</a>
@@ -15,7 +24,16 @@ export default function Header() {
                 <a href="">videos</a>
                 <a href="">fans</a>
                 <a href="">news</a>
-                <a href="">shop</a>
+                <a href="">shop</a> */}
+                {nav.map((nav, index) => {
+                    return (
+                        <a href="" key={index} className={nav.active ? "active" : ""}>
+                            {nav}
+                        </a>
+                    );
+                })}
+
+
             </div>
         </div>
         </header>

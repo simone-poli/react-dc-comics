@@ -109,7 +109,7 @@ export default function Footer() {
 
                     <div className="container d-flex justify-content-between align-items-center p-3">
                         <div>
-                            <button class="btn btn-outline-primary">sing up now!</button>
+                            <button className="btn btn-outline-primary">sing up now!</button>
                         </div>
                         <div id="footer" className="d-flex justify-content-between align-items-center gap-3">
                             <p>follow us</p>

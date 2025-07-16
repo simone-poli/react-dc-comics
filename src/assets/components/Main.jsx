@@ -12,7 +12,7 @@ export default function Main() {
 
     return (
         <main>
-            <div class="container-jumbotron" id="jumbotron">
+            <div className="container-jumbotron" id="jumbotron">
                 <img src="../public/img/jumbotron." alt="" />
             </div>
 
@@ -22,14 +22,14 @@ export default function Main() {
                     <div className="row pt-4">
                         {comics.map(({ series, thumb }, index) => (
                             <div key={index} className="col-2 d-flex flex-column align-items-center text-white">
-                               
-                                    <a><img src={thumb} alt=""/></a>
-                                    <a><p className="mb-0">{series}</p></a>
-                              
+
+                                <a><img src={thumb} alt="" /></a>
+                                <a><p className="mb-0">{series}</p></a>
+
                             </div>
                         ))}
                         <div className="d-flex justify-content-center mt-4">
-                        <a class="btn btn-primary " href="#" role="button">Load more </a>
+                            <a className="btn btn-primary " href="#" role="button">Load more </a>
                         </div>
                     </div>
                 </div>
@@ -67,9 +67,9 @@ export default function Main() {
                         <p>DC Power Visa</p>
                     </div>
                     </a> */}
-                    {list.map(({ href, img, text }) => {
+                    {list.map(({ href, img, text },index) => {
                         return (
-                            <a href={href}>
+                            <a href={href} key={index}>
                                 <div className="d-flex align-items-center">
                                     <img src={img} alt="" />
                                     <p>{text}</p>

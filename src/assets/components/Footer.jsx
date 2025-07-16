@@ -101,7 +101,7 @@ export default function Footer() {
                             </div>
                         </div>
                         <div className="col">
-                          
+
                         </div>
                     </div>
                 </div>
@@ -113,11 +113,11 @@ export default function Footer() {
                         </div>
                         <div id="footer" className="d-flex justify-content-between align-items-center gap-3">
                             <p>follow us</p>
-                            <img src="./public/img/footer-facebook.png" alt="" />
-                            <img src="./public/img/footer-twitter.png" alt="" />
-                            <img src="./public/img/footer-youtube.png" alt="" />
-                            <img src="./public/img/footer-pinterest.png" alt="" />
-                            <img src="./public/img/footer-periscope.png" alt="" />
+                            <a href=""><img src="./public/img/footer-facebook.png" alt="" /></a>
+                            <a href=""><img src="./public/img/footer-twitter.png" alt="" /></a>
+                            <a href=""><img src="./public/img/footer-youtube.png" alt="" /></a>
+                            <a href=""><img src="./public/img/footer-pinterest.png" alt="" /></a>
+                            <a href=""><img src="./public/img/footer-periscope.png" alt="" /></a>
                         </div>
                     </div>
                 </div>

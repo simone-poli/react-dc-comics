@@ -63,6 +63,14 @@ main {
     object-fit: fill;
   }
 
+  .btn{
+    border-radius: 0;
+    width: 25%;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 1rem 0;
+  }
+
 
 }
 

@@ -28,6 +28,9 @@ export default function Main() {
                               
                             </div>
                         ))}
+                        <div className="d-flex justify-content-center mt-4">
+                        <a class="btn btn-primary " href="#" role="button">Load more </a>
+                        </div>
                     </div>
                 </div>
             </div>

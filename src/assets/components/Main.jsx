@@ -1,4 +1,4 @@
-import ComicBook from "./comicbook"
+import ComicBook from "./ComicBook"
 import list from "../../../data/list"
 export default function Main() {
 
@@ -15,7 +15,7 @@ export default function Main() {
             <div className="container-jumbotron" id="jumbotron">
                 <img src="../public/img/jumbotron." alt="" />
             </div>
-                
+
 
             <div className=" bg-black">
                 <div className="container">
